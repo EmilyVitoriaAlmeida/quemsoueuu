@@ -1,9 +1,63 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil -Quem sou eu </title>
+    <title>Perfil - Emily Vitória</title>
+    
+    <style>
+        /* Estilo geral para o corpo da página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; 
+            color: #333; /* Cor do texto padrão (cinza escuro) */
+        }
+
+        /* 1. HEADER: AZUL ESCURO */
+        header {
+            background-color: #00008B; /* DarkBlue */
+            color: white; /* Texto em branco para contraste */
+            padding: 20px;
+        }
+        
+        /* 2. PRIMEIRA SEÇÃO (SOBRE MIM): CINZA */
+        #sobre-mim {
+            background-color: #808080; /* Gray */
+            color: white; /* Texto em branco para contraste */
+            padding: 20px;
+        }
+
+        /* 3. SEGUNDA SEÇÃO (INTERESSES E METAS): VERDE */
+        #interesses-e-metas {
+            background-color: #008000; /* Green */
+            color: white; /* Texto em branco para contraste */
+            padding: 20px;
+        }
+
+        /* 4. TERCEIRA SEÇÃO (CONTATO): LARANJA */
+        #contato {
+            background-color: #FFA500; /* Orange */
+            color: black; /* Texto em preto para contraste */
+            padding: 20px;
+        }
+        
+        /* Ajusta links dentro da seção de Contato */
+        #contato a {
+            color: #00008B; /* Cor dos links */
+        }
+
+        /* 5. FOOTER: PRETO OU CINZA ESCURO */
+        footer {
+            background-color: #333333; /* Cinza Escuro */
+            color: white; /* Texto em branco para contraste */
+            padding: 10px;
+            text-align: center;
+        }
+        
+        hr {
+            border: none;
+        }
+    </style>
 </head>
 <body>
 
@@ -12,17 +66,13 @@
         <p>Minas Gerais | 21 anos</p>
     </header>
 
-    <hr>
-
-    <section id="Sobre-mim">
+    <section id="sobre-mim">
         <h2>Sobre Mim</h2>
         <p>Sou uma pessoa que **ama música** — estou sempre criando playlists ou imersa nas minhas favoritas. No campo da leitura, sou fã de **romances clichês** que me prendem do começo ao fim. Fora isso, adoro assistir a **documentários criminais** e tenho grande interesse por **arte** (atuação, dança, canto), buscando sempre conhecer novas estéticas e pontos de vista.</p>
         <p>Um sonho pessoal é viajar para conhecer **novas pessoas e culturas**.</p>
     </section>
 
-    <hr>
-
-    <section id="Interesses-e-Metas">
+    <section id="interesses-e-metas">
         <h2>Meus Interesses e Metas</h2>
         <p>Meus objetivos a curto prazo incluem:</p>
         <ul>
@@ -32,11 +82,17 @@
         <p>Planejo ingressar na faculdade em 2026, com foco nas áreas de **Psicologia** ou **Direito (com ênfase em Direito da Moda)**, buscando associar meus interesses.</p>
     </section>
 
-    <hr>
-
-    <section id="Contato">
+    <section id="contato">
         <h2>Contato</h2>
-    <li>**Email:** vitoriasilvaalmeida</li>
-    <li>**GitHub:** <a href="https://github.com/EmilyVitoriaAlmeida">github.com/EmilyVitoriaAlmeida</a></li>
+        <ul>
+            <li>**Email:** vitoriasilvaalmeida</li>
+            <li>**GitHub:** <a href="https://github.com/EmilyVitoriaAlmeida">github.com/EmilyVitoriaAlmeida</a></li>
+        </ul>
+    </section>
 
+    <footer>
+        <p>&copy; Emily Vitória, 2025.</p>
+    </footer>
 
+</body>
+</html>
